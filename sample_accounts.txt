@@ -5,15 +5,15 @@ OFFICEHUB SAMPLE ACCOUNTS
 ADMIN ACCOUNT
 
 Email:
-Cassanomafialawyer@gmail.com
+feu@edu.ph
 
 Password:
-123456789
+244466666
 
 BUYER ACCOUNT
 
 Email:
-zenmail074@gmail.com
+fox@edu.ph
 
 Password:
-123456789
+244466666

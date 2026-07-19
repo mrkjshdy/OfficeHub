@@ -82,8 +82,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             ]);
 
             $verificationLink =
-                "http://localhost/officehub/auth/verify.php?token=" .
-                urlencode($token);
+            "https://officehub-mark.infinityfreeapp.com/auth/verify.php?token=" .
+            urlencode($token);
 
             /* Send Email */
 

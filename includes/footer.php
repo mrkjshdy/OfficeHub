@@ -20,11 +20,11 @@
 
                 <ul class="list-unstyled">
 
-                    <li><a class="text-white text-decoration-none" href="/officehub/index.php">Home</a></li>
+                    <li><a class="text-white text-decoration-none" href="/index.php">Home</a></li>
 
-                    <li><a class="text-white text-decoration-none" href="/officehub/about.php">About</a></li>
+                    <li><a class="text-white text-decoration-none" href="/about.php">About</a></li>
 
-                    <li><a class="text-white text-decoration-none" href="/officehub/buyer/store.php">Store</a></li>
+                    <li><a class="text-white text-decoration-none" href="/buyer/store.php">Store</a></li>
 
                 </ul>
 

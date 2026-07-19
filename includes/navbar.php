@@ -6,7 +6,7 @@ require_once __DIR__ . '/../config/session.php';
 
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="/officehub/index.php">
+        <a class="navbar-brand fw-bold" href="/index.php">
             OfficeHub
         </a>
 
@@ -25,41 +25,41 @@ require_once __DIR__ . '/../config/session.php';
                 <?php if (!isset($_SESSION['user_id'])): ?>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/index.php">Home</a>
+                        <a class="nav-link" href="/index.php">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/about.php">About</a>
+                        <a class="nav-link" href="/about.php">About</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/auth/login.php">Login</a>
+                        <a class="nav-link" href="/auth/login.php">Login</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/auth/register.php">Register</a>
+                        <a class="nav-link" href="/auth/register.php">Register</a>
                     </li>
 
                 <?php elseif ($_SESSION['role'] == 'admin'): ?>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/admin/dashboard.php">Dashboard</a>
+                        <a class="nav-link" href="/admin/dashboard.php">Dashboard</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/admin/products.php">Products</a>
+                        <a class="nav-link" href="/admin/products.php">Products</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/admin/users.php">Users</a>
+                        <a class="nav-link" href="/admin/users.php">Users</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/admin/inventory.php">Inventory</a>
+                        <a class="nav-link" href="/admin/inventory.php">Inventory</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/admin/audit_logs.php">Audit Logs</a>
+                        <a class="nav-link" href="/admin/audit_logs.php">Audit Logs</a>
                     </li>
 
                     <li class="nav-item">
@@ -69,21 +69,21 @@ require_once __DIR__ . '/../config/session.php';
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="/officehub/auth/logout.php">Logout</a>
+                        <a class="nav-link text-warning" href="/auth/logout.php">Logout</a>
                     </li>
 
                 <?php else: ?>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/index.php">Home</a>
+                        <a class="nav-link" href="/index.php">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/buyer/store.php">Store</a>
+                        <a class="nav-link" href="/buyer/store.php">Store</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/officehub/buyer/cart.php">Cart</a>
+                        <a class="nav-link" href="/buyer/cart.php">Cart</a>
                     </li>
 
                     <li class="nav-item">
@@ -93,7 +93,7 @@ require_once __DIR__ . '/../config/session.php';
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-warning" href="/officehub/auth/logout.php">Logout</a>
+                        <a class="nav-link text-warning" href="/auth/logout.php">Logout</a>
                     </li>
 
                 <?php endif; ?>
